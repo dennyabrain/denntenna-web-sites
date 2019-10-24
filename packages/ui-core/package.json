@@ -1,0 +1,15 @@
+{
+  "name": "ui-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denny George <say.hi.to.denny@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "grommet": "^2.7.11",
+    "styled-components": "^4.4.0"
+  }
+}

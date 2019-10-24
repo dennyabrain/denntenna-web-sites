@@ -1,7 +1,7 @@
 {
-  "name": "home",
+  "name": "web-collages",
   "private": true,
-  "description": "Home page for denntenna",
+  "description": "Exploring Instagram and Snapchat like format for web storytelling",
   "version": "0.1.0",
   "author": "Denny George <say.hi.to.denny@gmail.com>",
   "dependencies": {
