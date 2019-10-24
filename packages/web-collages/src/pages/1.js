@@ -15,7 +15,7 @@ useEffect(()=> {
 })
 
  return (
-    <Stack anchor="center">
+    <Stack anchor="top-right">
         <Box>
             <Image/>
         </Box>
