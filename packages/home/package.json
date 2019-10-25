@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Denny George <say.hi.to.denny@gmail.com>",
   "dependencies": {
+    "ui-core": "1.0.0",
     "gatsby": "^2.16.1",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-manifest": "^2.2.23",

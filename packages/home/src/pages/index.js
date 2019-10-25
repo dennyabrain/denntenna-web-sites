@@ -6,35 +6,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import {Grid, Box, Grommet, Heading, Text, Video} from 'grommet'
+import {theme} from 'ui-core'
 
-const DenntennaTheme = {
-  global: {
-      font: {
-          family: 'Khand',
-      },
-      colors:{
-          "brand": '#FF77FF',
-          "brand-1": 'FFE5E2'
-      },
-  },
-  heading: {
-    font: {
-        family: 'Khand',
-    },
-  },
-  "button": {
-      "border": {
-          "width": "1px",
-          "radius": "0.2em",
-      },
-      "size": {
-          "xmedium" : '90px'
-      }
-  },
-};
 
 const IndexPage = () => (
-  <Grommet full theme={DenntennaTheme}>
+  <Grommet full theme={theme}>
     <SEO title="Home" />
     <Grid
       fill
