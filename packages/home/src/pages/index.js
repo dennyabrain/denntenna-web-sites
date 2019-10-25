@@ -13,7 +13,7 @@ const DenntennaTheme = {
           family: 'Khand',
       },
       colors:{
-          "brand": '#FF63FF',
+          "brand": '#FF77FF',
           "brand-1": 'FFE5E2'
       },
   },
@@ -50,27 +50,16 @@ const IndexPage = () => (
         width={'medium'}
         gridArea={'left'} 
         pad={'medium'}> 
-        {/* <Heading level={1}> Denntenna </Heading>
-        <Heading level={2}> Heading 2 </Heading>
-        <Heading level={3}> Heading 3 </Heading>
-
-        <Text size={'xlarge'}> Body XLarge </Text>
-        <Text size={'large'}> Body Large </Text>
-        <Text size={'medium'}> Body Medium </Text>
-        <Text size={'small'}> Body Small </Text>
-        <Text size={'xsmall'}> Body xSmall </Text> */}
 
         <Box direction={'column'} align={'baseline'}>
           <Text size={'xlarge'}> Denntenna </Text>
-          <Text size={'medium'} color={'brand'}> storytelling logs </Text>
+          <Text size={'medium'} color={'brand'}> storytelling practice </Text>
         </Box>
 
         <br/>
         <br/>
 
-        <Heading level={2}> Projects </Heading>
-
-        <Heading level={2}> Writing </Heading>
+        <Heading level={2}> Links </Heading>
 
         <br/>
         <br/>
@@ -78,7 +67,7 @@ const IndexPage = () => (
 
         <Heading level={3}> Contact </Heading>
           <Text size={'medium'}> email : say.hi.to.dennny@gmail.com </Text>
-          <Text size={'medium'}> twitter, instagram : @denntenna </Text>
+          <Text size={'medium'}> twitter, instagram, tiktok : @denntenna </Text>
 
       </Box>
       <Box fill gridArea={'right'} background={'brand'}> 
