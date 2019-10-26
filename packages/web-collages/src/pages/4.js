@@ -60,7 +60,9 @@ const Four = () => {
                 }
 
                 <Box gridArea={'logo'} margin={'large'}>
-                    <Text size={'medium'} color={'brand'}> i like how this looks </Text>
+                    <Text size={'medium'} color={'brand'}> I like how this looks. </Text>
+                    <Text size={'medium'}> Shot with a telescopic lens. </Text>
+                    <Text size={'medium'}> From this angle, people look like videogame characters  </Text>
                 </Box>
             </Grid>
         </Grommet>
