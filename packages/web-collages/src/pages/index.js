@@ -5,17 +5,53 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import {Grommet, Box, Heading, Text, Grid} from 'grommet'
+import {theme} from 'ui-core'
+
+const pages=[
+  {label:'Day One', 'description':'', previewImage: '', target:'1'},
+  {label:'Day Two', 'description':'', previewImage: '', target:'2'},
+  {label:'Day Three', 'description':'', previewImage: '', target:'3'},
+  {label:'Day Four', 'description':'', previewImage: '', target:'4'}
+]
+
 const IndexPage = () => (
-  <Layout>
+  <Grommet theme={theme} full>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+    <Grid 
+      fill
+      rows={['flex']}
+      columns={['2/3', '1/3']}
+      gap={'small'}
+      areas={[
+        {name:'left', start:[0,0], end:[0,0]},
+        {name:'right', start:[1,0], end:[1,0]},
+      ]}
+    >
+    <Box gridArea={'left'} pad={'medium'}>
+      <Box direction={'column'} align={'baseline'} >
+        <Text size={'xlarge'}> Collages </Text>
+        <Text size={'medium'} color={'brand'}>  </Text>
+      </Box>
+      <Box>
+        {pages.map((page)=>(
+          <Box direction={'row'}>
+            <Link 
+            to={`/${page.target}`}> 
+              <Text>{page.label}</Text>
+            </Link>
+            {page.description && <Text> - {page.description} </Text>}
+          </Box>
+        ))}
+      </Box>
+    </Box>
+
+    <Box gridArea={'right'}>
+      {/* <img src="https://d2w9rnfcy7mm78.cloudfront.net/5343377/large_7998dce78c9054287e75dd1455980fd2.jpg?1572044357?bc=0"/> */}
+    </Box>
+
+    </Grid>
+  </Grommet>
 )
 
 export default IndexPage
