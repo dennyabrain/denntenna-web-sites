@@ -12,7 +12,9 @@ const pages=[
   {label:'Day One', 'description':'', previewImage: '', target:'1'},
   {label:'Day Two', 'description':'', previewImage: '', target:'2'},
   {label:'Day Three', 'description':'', previewImage: '', target:'3'},
-  {label:'Day Four', 'description':'', previewImage: '', target:'4'}
+  {label:'Day Four', 'description':'', previewImage: '', target:'4'},
+  {label:'Day Five', 'description':'', previewImage: '', target:'4'},
+  {label:'Day Six', 'description':'Gallery of hinge screenshots', previewImage: '', target:'4'}
 ]
 
 const IndexPage = () => (
