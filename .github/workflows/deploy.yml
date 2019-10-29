@@ -12,5 +12,5 @@ jobs:
     - name: Run a multi-line script
       run: |
         npm install
-        npm install -g lerna
+        npm install lerna
         
